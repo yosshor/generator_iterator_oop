@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 21 11:12:22 2020
-
-@author: EGLOBAL
-"""
 """
 @author: Yoosi
 """
