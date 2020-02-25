@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Created on Sat Dec 21 12:12:35 2019
-
-@author: EGLOBAL
+@author: Yossi Shor
 """
 import string
 
