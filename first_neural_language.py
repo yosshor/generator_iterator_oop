@@ -1,5 +1,5 @@
 """
-@author: EGLOBAL
+@author: Yossi Shor
 """
 
 import numpy as np
