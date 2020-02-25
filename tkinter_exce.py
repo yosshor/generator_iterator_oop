@@ -1,11 +1,15 @@
-# -*- coding: utf-8 -*-
 """
-Created on Wed Jan 22 19:31:26 2020
-
-@author: EGLOBAL
+@author: Yossi Shor
 """
-
+import tkinter.ttk as tkk
 import tkinter as tk
+from tkinter import scrolledtext
+from tkinter import messagebox 
+from PIL import Image, ImageTk
+from tkinter import scrolledtext
+from tkinter import * 
+from tkinter.ttk import *
+
 top = tk.Tk()
 #top.mainloop()
 
@@ -16,9 +20,7 @@ var.set("Hey!? How are you doing?")
 label.pack()
 top.mainloop()
 
-
-from PIL import Image, ImageTk
-from tkinter import scrolledtext
+##
 window = tk.Tk()
 window.title("Welcome")
 window.geometry('390x300')
@@ -33,8 +35,6 @@ window.mainloop()
 
 
 
-from tkinter import * 
-from tkinter.ttk import *
   
 root = Tk() 
 Label(root, text = 'GeeksforGeeks', font =('Verdana', 15)).pack(side = TOP, pady = 10) 
@@ -51,8 +51,6 @@ Button(root, text = 'Click Me !', image = photoimage,compound = LEFT).pack(side 
   
 mainloop() 
 
-from tkinter import *  
-from PIL import ImageTk,Image  
 root = Tk()  
 canvas = Canvas(root, width = 300, height = 300)  
 canvas.pack()  
@@ -87,7 +85,6 @@ root.mainloop()
 #
 #root.mainloop()
 
-import tkinter as tk 
 window = tk.Tk()
 window.title("welcome to this page")
 window.geometry('350x390')
@@ -105,7 +102,6 @@ lbl.grid(column = 0, row = 0)
 window.mainloop()
 
     
-import tkinter.ttk as tkk
 window = tk.Tk()
 window.title("welcome to this page")
 window.geometry('350x300')
@@ -121,7 +117,6 @@ chk.grid(column = 1, row = 0)
 combo.mainloop()
 
 
-import tkinter as tk
 window = tk.Tk()
 window.title("welcome to my house")
 window.geometry('350x300')
@@ -139,7 +134,6 @@ button.grid(column = 3, row = 0)
 window.mainloop()
 
 
-from tkinter import scrolledtext
 window = tk.Tk()
 window.title("Welcome")
 window.geometry('390x300')
@@ -172,7 +166,6 @@ bu2.grid(column = 2, row = 0)
 window.mainloop()
 
 
-from tkinter import messagebox 
 res = messagebox.askquestion('Message title','Message content') 
 res = messagebox.askyesno('Message title','Message content') 
 res = messagebox.askyesnocancel('Message title','Message content') 
