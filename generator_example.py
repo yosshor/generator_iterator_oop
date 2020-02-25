@@ -1,6 +1,6 @@
 
 """
-@author: Yoss
+@author: Yossi Shor
 """
 # using with generator experssion
 
