@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Created on Thu Jan 16 17:48:42 2020
-
-@author: EGLOBAL
+@author: Yossi Shor
 """
 
 def read_file(file_name):
@@ -20,14 +17,4 @@ def read_file(file_name):
         return
     
 print(read_file('new_text.txt'))   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
