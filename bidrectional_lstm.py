@@ -1,14 +1,7 @@
-# -*- coding: utf-8 -*-
 """
-Created on Fri Dec 20 18:55:10 2019
-
-@author: EGLOBAL
+@author: Yossi Shor
 """
 
-'''
-  code by Tae Hwan Jung(Jeff Jung) @graykode
-  Reference : https://github.com/prakashpandey9/Text-Classification-Pytorch/blob/master/models/LSTM_Attn.py
-'''
 import numpy as np
 import torch
 import torch.nn as nn
