@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Created on Fri Dec 13 12:45:02 2019
-
-@author: EGLOBAL
+@author: Yossi Shor
 """
 
 import numpy as np
@@ -44,9 +41,6 @@ my_pixel.set_grayscale()
 print(my_pixel.print_pixel_info())
     
     
-    
-
-#exercise 2.4  
 
 class Bigthing:
     def __init__(self, variable):
