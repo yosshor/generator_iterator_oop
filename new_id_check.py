@@ -1,5 +1,5 @@
 """
-@author: Yoosi
+@author: Yoosi Shor
 """
 
 import numpy as np
@@ -154,9 +154,6 @@ class IDIterator:
             self.index += 1
             return self.total[self.index]
         
-        
-        
-        
         for i, j in enumerate(range(int(self.id_num), 999999999)):
             if i < 100:
                 if check_id_valid(str(j)):
@@ -192,14 +189,13 @@ class IDIterator:
 #            for i in range(int(self.id_num), int(range_end)):
 #                self.id_num = i
 #                if (check_id_valid(str(self.id_num))):
-##                    self.total.append(self.id_num)
+#                    self.total.append(self.id_num)
 #                    self.index += 1
 #                    return  IDIterator.get_num(self.id_num)
 
 
 
 class IDIterator:
-
     def __init__(self, id_num):  
         self.id_num = id_num
         self.start = 0
@@ -217,8 +213,7 @@ class IDIterator:
                      self.b = num
                      return self.b
                  
-class IDIterator:
-            
+class IDIterator:        
     def __init__(self, id_number):  
         self._id = id_number
         self._start = 0
@@ -298,7 +293,3 @@ def ff(id_num):
                                                  
 u = ff(id_num)
                 
-                
-                
-                
-            
