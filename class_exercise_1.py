@@ -1,10 +1,7 @@
 
 
-# -*- coding: utf-8 -*-
 """
-Created on Thu Dec 12 20:47:33 2019
-
-@author: EGLOBAL
+@author: Yossi Shor
 """
 
 
