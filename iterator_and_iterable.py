@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 @author: Yoss
 """
@@ -39,7 +38,6 @@ play()
 # how to show the third num in numbers without using if condition
 numbers = iter(list(range(1, 101, 3)))       
 print(next(numbers))
-
 print(numbers)
 
 numbers = iter(list(range(1, 101)))       
@@ -76,7 +74,6 @@ print(next(np.sum(all_combinations, axis = 0)))
 
 
 class Employee:
-    
     def __init__(self, name, age, salary):
         self._name = name
         self._age = age
@@ -88,7 +85,6 @@ class Employee:
 
 
 class EmployeeManager:
-    
     def __init__(self):
         self._employee_lst = []
         self.empl_index = -1
@@ -124,11 +120,9 @@ print(manager.__next__())
 import numpy as np
 
 class MusicNotes:
-    
     def __init_(self):
         self.table = []
-        self.index = -1
-        
+        self.index = -1      
 
     def multiplay(self):
         self.freqs = {"la": 55,
@@ -186,20 +180,4 @@ while count < 4:
 
 d = [i * 2 for i in g]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
     
